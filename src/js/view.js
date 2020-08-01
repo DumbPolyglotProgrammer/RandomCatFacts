@@ -1,5 +1,5 @@
 // css
-import './style.css';
+import '../style.css';
 
 class View {
 
