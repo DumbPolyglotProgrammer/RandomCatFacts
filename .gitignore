@@ -3,3 +3,5 @@ node_modules/
 
 # Distribution Directory
 dist/
+
+.DS_Store
