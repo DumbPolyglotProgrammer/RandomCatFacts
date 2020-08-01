@@ -2,4 +2,10 @@
 // CSS
 import './style.css';
 
-document.getElementById('text').textContent = "Hello Hitanshu Dhawan."
+import axios from 'axios'
+
+axios("http://numbersapi.com/random/trivia?json")
+    .then(result => {
+        const trivia = result.data.text;
+        document.getElementById('text').textContent = trivia;
+    })
