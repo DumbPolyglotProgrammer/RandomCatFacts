@@ -4,11 +4,11 @@ import '../style.css';
 class View {
 
     constructor() {
-        this.triviaTextHtmlElement = document.getElementById('trivia-text');
+        this.factTextHtmlElement = document.getElementById('fact-text');
     }
 
-    showTrivia(trivia) {
-        this.triviaTextHtmlElement.textContent = trivia;
+    showFact(fact) {
+        this.factTextHtmlElement.textContent = fact;
     }
 
 }

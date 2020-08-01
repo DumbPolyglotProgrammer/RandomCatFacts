@@ -14,3 +14,7 @@ https://www.sitepoint.com/bundle-static-site-webpack/
 Configuration of Babel
 <br>
 https://babeljs.io/setup#installation
+
+gh-pages
+<br>
+https://www.npmjs.com/package/gh-pages#command-line-utility

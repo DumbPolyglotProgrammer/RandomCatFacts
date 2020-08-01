@@ -4,4 +4,4 @@ import Model from './model';
 const view = new View();
 const model = new Model();
 
-model.getTrivia().then(trivia => view.showTrivia(trivia));
+model.getFact().then(fact => view.showFact(fact));

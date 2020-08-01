@@ -1,5 +1,5 @@
 {
-  "name": "random-trivia",
+  "name": "random-cat-facts",
   "version": "1.0.0",
   "description": "Random Stuff",
   "main": "./src/js/index.js",

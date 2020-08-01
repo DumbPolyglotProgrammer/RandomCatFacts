@@ -2,9 +2,9 @@ import axios from 'axios';
 
 class Model {
 
-    async getTrivia() {
-        const result = await axios("http://numbersapi.com/random/trivia?json")
-        return result.data.text;
+    async getFact() {
+        const result = await axios("https://catfact.ninja/fact")
+        return result.data.fact;
     }
 
 }
