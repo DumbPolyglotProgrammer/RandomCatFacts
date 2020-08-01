@@ -1,11 +1,7 @@
+import View from './view';
+import Model from './model';
 
-// CSS
-import './style.css';
+const view = new View();
+const model = new Model();
 
-import axios from 'axios'
-
-axios("http://numbersapi.com/random/trivia?json")
-    .then(result => {
-        const trivia = result.data.text;
-        document.getElementById('text').textContent = trivia;
-    })
+model.getTrivia().then(trivia => view.showTrivia(trivia));
